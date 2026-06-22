@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="container">
+
+    <h1>Feedback Form</h1>
+
+    <form id="feedback-form">
+
+        <input
+            type="text"
+            id="name"
+            placeholder="Enter your name">
+
+        <input
+            type="email"
+            id="email"
+            placeholder="Enter your email">
+
+        <textarea
+            id="comments"
+            placeholder="Enter comments"></textarea>
+
+        <p id="char-count">
+            Characters: 0
+        </p>
+
+        <button type="submit">
+            Submit
+        </button>
+
+        <p id="message"></p>
+
+    </form>
+
+    <div id="feedback-display"></div>
+
+</div>
+
+<script src="cp_1.js"></script>
+
+</body>
+</html>
